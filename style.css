@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right,#eeecf3, #333);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 90%;
+    height: 640px;
+    background-image: linear-gradient(to right, #170966ac 30%, #333333c2),
+    url(./Luffy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container:hover{
+    background-image: linear-gradient(to right, #190452ac 30%, #a19d9d73),
+    url(./Luffy.png);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+ul{
+    width: 60%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+ul a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.content{
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+    color: #fff;
+}
+
+.content h2{
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.content p{
+    initial-letter: 2px;
+    width: 420px;
+    padding: 20px 0;
+}
+
+.content button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.content button:hover{
+    background-color: transport;
+    border: 2px solid #fff;
+    color: blue;
+    cursor: pointer;
+}
